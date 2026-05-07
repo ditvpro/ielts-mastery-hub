@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "University Enrollment Form",
+    "section": "Section 1",
+    "topic": "Education",
+    "audioFile": "placeholder_section1.mp3",
+    "transcript": "Receptionist: Good morning, welcome to Greenfield University. How can I help you?\nStudent: Hi, I'd like to enroll in the summer English course.\nReceptionist: Of course. Let me take your details. What's your full name?\nStudent: It's Maria Santos.\nReceptionist: And how do you spell your surname?\nStudent: S-A-N-T-O-S.\nReceptionist: Great. And your date of birth?\nStudent: The 15th of March, 1998.\nReceptionist: What's your nationality?\nStudent: I'm Brazilian.\nReceptionist: And your contact phone number?\nStudent: It's 07845 332 901.\nReceptionist: Do you have an email address?\nStudent: Yes, it's maria.santos@gmail.com.\nReceptionist: Which course are you interested in?\nStudent: I'd like to take the Academic English course.\nReceptionist: That runs for 8 weeks. Classes are Monday to Friday from 9 AM to 12 PM. The fee is £2,400 for the full course.\nStudent: Is there a discount for early registration?\nReceptionist: Yes, if you register before June 1st, you get a 10% discount, so it would be £2,160.\nStudent: That sounds good. Where are the classes held?\nReceptionist: In the Henderson Building, Room 204.\nStudent: And when does the course start?\nReceptionist: It starts on July 5th.",
+    "questions": [
+      { "id": "l1q1", "type": "form-completion", "question": "Student's surname: _____", "answer": "Santos" },
+      { "id": "l1q2", "type": "form-completion", "question": "Date of birth: 15th _____ 1998", "answer": "March" },
+      { "id": "l1q3", "type": "form-completion", "question": "Nationality: _____", "answer": "Brazilian" },
+      { "id": "l1q4", "type": "form-completion", "question": "Phone number: _____", "answer": "07845 332 901" },
+      { "id": "l1q5", "type": "form-completion", "question": "Course name: _____ English", "answer": "Academic" },
+      { "id": "l1q6", "type": "form-completion", "question": "Course duration: _____ weeks", "answer": "8" },
+      { "id": "l1q7", "type": "form-completion", "question": "Full course fee: £_____", "answer": "2,400" },
+      { "id": "l1q8", "type": "form-completion", "question": "Discounted fee: £_____", "answer": "2,160" },
+      { "id": "l1q9", "type": "form-completion", "question": "Building name: _____ Building", "answer": "Henderson" },
+      { "id": "l1q10", "type": "form-completion", "question": "Course start date: July _____", "answer": "5th" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Library Services Tour",
+    "section": "Section 2",
+    "topic": "Campus Life",
+    "audioFile": "placeholder_section2.mp3",
+    "transcript": "Guide: Welcome to Westfield Library. I'll be giving you a brief tour of our facilities today. Let me start by explaining our opening hours. The library is open Monday to Friday from 8 AM to 10 PM, and on weekends from 9 AM to 6 PM. During exam periods, we extend our hours until midnight on weekdays.\n\nNow, let me show you around. On the ground floor, you'll find the main reception desk where you can borrow and return books. The maximum loan period is 3 weeks, and you can borrow up to 10 items at a time. There's a fine of 50 pence per day for late returns.\n\nTo your left is the Reference Section, which contains encyclopedias, dictionaries, and journals that cannot be borrowed. These must be used within the library. Next to that is the Computer Lab with 45 workstations available on a first-come, first-served basis.\n\nOn the first floor, you'll find the Quiet Study Area. This is a silent zone — no phones, no conversations. It has seating for 120 students. There are also 15 individual study rooms that can be booked online for up to 3 hours at a time.\n\nThe second floor houses our Group Study Rooms. There are 8 rooms, each accommodating up to 6 people. These are popular during assignment season, so book early. We also have a café on this floor called The Reading Room Café, which serves coffee and light snacks.\n\nFor printing and photocopying, you'll need a library card loaded with credit. Printing costs 5 pence per black-and-white page and 20 pence per colour page.",
+    "questions": [
+      { "id": "l2q1", "type": "form-completion", "question": "Weekend opening hours: 9 AM to _____ PM", "answer": "6" },
+      { "id": "l2q2", "type": "form-completion", "question": "Extended hours during exams: until _____", "answer": "midnight" },
+      { "id": "l2q3", "type": "form-completion", "question": "Maximum loan period: _____ weeks", "answer": "3" },
+      { "id": "l2q4", "type": "form-completion", "question": "Late return fine: _____ pence per day", "answer": "50" },
+      { "id": "l2q5", "type": "form-completion", "question": "Number of computer workstations: _____", "answer": "45" },
+      { "id": "l2q6", "type": "multiple-choice", "question": "The Quiet Study Area is on which floor?", "options": ["A) Ground floor", "B) First floor", "C) Second floor"], "answer": "B" },
+      { "id": "l2q7", "type": "form-completion", "question": "Individual study rooms can be booked for up to _____ hours", "answer": "3" },
+      { "id": "l2q8", "type": "form-completion", "question": "Number of Group Study Rooms: _____", "answer": "8" },
+      { "id": "l2q9", "type": "form-completion", "question": "Name of the café: The _____ Room Café", "answer": "Reading" },
+      { "id": "l2q10", "type": "form-completion", "question": "Colour printing cost: _____ pence per page", "answer": "20" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Research on Workplace Productivity",
+    "section": "Section 3",
+    "topic": "Business",
+    "audioFile": "placeholder_section3.mp3",
+    "transcript": "Tutor: So, Sarah and Tom, let's discuss your research project on workplace productivity. How is it going?\nSarah: We've made good progress. We surveyed 200 office workers across 5 different companies.\nTom: Yes, and we found some interesting results. The biggest factor affecting productivity was noise levels — 67% of respondents said noise was their primary distraction.\nSarah: The second most common distraction was unnecessary meetings, mentioned by 54% of workers.\nTutor: That's quite high. What about the physical workspace?\nTom: Well, we found that workers with access to natural light reported 15% higher productivity scores compared to those without. Temperature was also important — the optimal range was between 20 and 22 degrees Celsius.\nSarah: We also looked at break patterns. Workers who took short breaks every 90 minutes were 28% more productive than those who worked continuously for long stretches.\nTutor: Did you examine remote versus office work?\nTom: Yes. Remote workers reported higher satisfaction but were 12% less likely to collaborate with colleagues outside their immediate team.\nSarah: We're planning to present our findings at the faculty conference in November. We'll use a combination of charts and infographics.\nTutor: Excellent. Make sure you include recommendations for employers.\nTom: We will. Our main recommendation is implementing flexible quiet zones and reducing meeting frequency by at least 30%.",
+    "questions": [
+      { "id": "l3q1", "type": "form-completion", "question": "Number of workers surveyed: _____", "answer": "200" },
+      { "id": "l3q2", "type": "form-completion", "question": "Number of companies included: _____", "answer": "5" },
+      { "id": "l3q3", "type": "form-completion", "question": "Percentage who said noise was the primary distraction: _____%", "answer": "67" },
+      { "id": "l3q4", "type": "form-completion", "question": "Second most common distraction: unnecessary _____", "answer": "meetings" },
+      { "id": "l3q5", "type": "form-completion", "question": "Natural light increased productivity by _____%", "answer": "15" },
+      { "id": "l3q6", "type": "form-completion", "question": "Optimal temperature range: 20 to _____ degrees", "answer": "22" },
+      { "id": "l3q7", "type": "form-completion", "question": "Recommended break frequency: every _____ minutes", "answer": "90" },
+      { "id": "l3q8", "type": "form-completion", "question": "Workers taking regular breaks were _____% more productive", "answer": "28" },
+      { "id": "l3q9", "type": "multiple-choice", "question": "Where will they present their findings?", "options": ["A) Department meeting", "B) Faculty conference", "C) Online webinar"], "answer": "B" },
+      { "id": "l3q10", "type": "form-completion", "question": "Recommended meeting reduction: at least _____%", "answer": "30" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lecture on Marine Conservation",
+    "section": "Section 4",
+    "topic": "Environment",
+    "audioFile": "placeholder_section4.mp3",
+    "transcript": "Professor: Today's lecture focuses on marine conservation, specifically the challenges facing coral reefs worldwide. Coral reefs are sometimes called the 'rainforests of the sea' because they support approximately 25% of all marine species, despite covering less than 1% of the ocean floor.\n\nThe primary threat to coral reefs is ocean warming caused by climate change. When water temperatures rise just 1 to 2 degrees above the normal summer maximum, corals expel the algae living in their tissues, turning white — a process known as coral bleaching. The Great Barrier Reef in Australia has experienced five mass bleaching events since 1998, with the most severe occurring in 2016 and 2017.\n\nOcean acidification is another major threat. As the ocean absorbs carbon dioxide from the atmosphere, the water becomes more acidic. This reduces the availability of calcium carbonate, which corals need to build their skeletons. Research published in Nature found that reef calcification rates have declined by 14% since 1990.\n\nHuman activities also directly damage reefs. Overfishing removes key species that keep reef ecosystems balanced. Destructive fishing practices such as dynamite fishing and cyanide fishing, still common in Southeast Asia, physically destroy reef structures. Coastal development and agricultural runoff introduce sediment and nutrients that promote algal growth, which smothers corals.\n\nConservation efforts are showing some promise. Marine Protected Areas, or MPAs, have been established in over 100 countries. Research shows that well-managed MPAs can increase fish biomass by 400% compared to unprotected areas. Coral restoration projects, where fragments of healthy coral are grown in nurseries and transplanted to damaged reefs, have had success in the Caribbean, with survival rates of transplanted corals reaching 85% in some cases.",
+    "questions": [
+      { "id": "l4q1", "type": "form-completion", "question": "Coral reefs support _____% of all marine species", "answer": "25" },
+      { "id": "l4q2", "type": "form-completion", "question": "Coral reefs cover less than _____% of the ocean floor", "answer": "1" },
+      { "id": "l4q3", "type": "form-completion", "question": "Coral bleaching occurs when temperatures rise _____ to 2 degrees above normal", "answer": "1" },
+      { "id": "l4q4", "type": "form-completion", "question": "Number of mass bleaching events at Great Barrier Reef since 1998: _____", "answer": "5" },
+      { "id": "l4q5", "type": "form-completion", "question": "Reef calcification rates have declined by _____% since 1990", "answer": "14" },
+      { "id": "l4q6", "type": "multiple-choice", "question": "Where are destructive fishing practices still common?", "options": ["A) North America", "B) Europe", "C) Southeast Asia", "D) South America"], "answer": "C" },
+      { "id": "l4q7", "type": "form-completion", "question": "MPAs have been established in over _____ countries", "answer": "100" },
+      { "id": "l4q8", "type": "form-completion", "question": "Well-managed MPAs can increase fish biomass by _____%", "answer": "400" },
+      { "id": "l4q9", "type": "multiple-choice", "question": "Where have coral restoration projects had success?", "options": ["A) Mediterranean", "B) Pacific Islands", "C) Caribbean", "D) Red Sea"], "answer": "C" },
+      { "id": "l4q10", "type": "form-completion", "question": "Survival rate of transplanted corals: up to _____%", "answer": "85" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Booking a Hotel Room",
+    "section": "Section 1",
+    "topic": "Travel",
+    "audioFile": "placeholder_section5.mp3",
+    "transcript": "Receptionist: Good afternoon, Riverside Hotel. How may I help you?\nCaller: Hello, I'd like to book a room for next weekend, please.\nReceptionist: Certainly. What dates would that be?\nCaller: Friday the 12th to Sunday the 14th of October, so two nights.\nReceptionist: Let me check availability. We have three room types: Standard at £85 per night, Deluxe at £120 per night, and Suite at £195 per night.\nCaller: I'll go with the Deluxe room, please.\nReceptionist: Good choice. That includes breakfast, free WiFi, and access to the swimming pool and gym. May I take your name?\nCaller: Yes, it's James Richardson.\nReceptionist: And a contact number?\nCaller: 07921 445 678.\nReceptionist: Would you like a river view or a garden view? The river view is an extra £15 per night.\nCaller: I'll take the garden view, thanks.\nReceptionist: Very well. Your total for two nights in a Deluxe garden view room is £240. We require a deposit of £60 to confirm the booking.\nCaller: Can I pay by credit card?\nReceptionist: Absolutely. Check-in is from 2 PM, and check-out is by 11 AM. There's free parking available in the underground car park.\nCaller: Is there a restaurant in the hotel?\nReceptionist: Yes, our restaurant is called The Terrace, and it's open for dinner from 6 PM to 10 PM.",
+    "questions": [
+      { "id": "l5q1", "type": "form-completion", "question": "Number of nights: _____", "answer": "2" },
+      { "id": "l5q2", "type": "form-completion", "question": "Deluxe room rate: £_____ per night", "answer": "120" },
+      { "id": "l5q3", "type": "form-completion", "question": "Guest name: James _____", "answer": "Richardson" },
+      { "id": "l5q4", "type": "form-completion", "question": "Contact number: _____", "answer": "07921 445 678" },
+      { "id": "l5q5", "type": "form-completion", "question": "View selected: _____ view", "answer": "garden" },
+      { "id": "l5q6", "type": "form-completion", "question": "Extra charge for river view: £_____ per night", "answer": "15" },
+      { "id": "l5q7", "type": "form-completion", "question": "Total cost: £_____", "answer": "240" },
+      { "id": "l5q8", "type": "form-completion", "question": "Deposit required: £_____", "answer": "60" },
+      { "id": "l5q9", "type": "form-completion", "question": "Check-in time: from _____ PM", "answer": "2" },
+      { "id": "l5q10", "type": "form-completion", "question": "Restaurant name: The _____", "answer": "Terrace" }
+    ]
+  }
+]

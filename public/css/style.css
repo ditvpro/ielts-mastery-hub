@@ -1,0 +1,366 @@
+/* ============================================================
+   IELTS Mastery Hub - Main Stylesheet
+   Dark theme with vibrant accents for premium feel
+   ============================================================ */
+
+/* --- CSS Custom Properties (Design Tokens) --- */
+:root {
+  /* Colors - Bright Education Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f7;
+  --bg-tertiary: #e5e5e5;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fcfcfc;
+  --bg-input: #f7f7f7;
+  --bg-overlay: rgba(255, 255, 255, 0.9);
+
+  /* Accent Colors - Duolingo Palette */
+  --accent: #58cc02; /* Feather Green */
+  --accent-hover: #46a302;
+  --accent-shadow: #58a700;
+  --accent-glow: rgba(88, 204, 2, 0.3);
+  
+  --accent-secondary: #1cb0f6; /* Cardinal Blue */
+  --accent-secondary-hover: #1480b3;
+  --accent-secondary-shadow: #1899d6;
+  
+  --accent-tertiary: #ce82ff; /* Purple */
+  --accent-success: #58cc02;
+  --accent-warning: #ffc800; /* Golden Yellow */
+  --accent-error: #ff4b4b; /* Cardinal Red */
+  --accent-info: #1cb0f6;
+
+  /* Text */
+  --text-primary: #4b4b4b; /* Eel Black */
+  --text-secondary: #777777; /* Wolf Gray */
+  --text-muted: #afafaf;
+  --text-accent: #58cc02;
+  --text-on-accent: #ffffff;
+
+  /* Borders */
+  --border-color: #e5e5e5; /* Swan Gray */
+  --border-color-hover: #cecece;
+  --border-accent: rgba(88, 204, 2, 0.4);
+
+  /* Shadows - Flat 3D */
+  --shadow-sm: 0 2px 0 #e5e5e5;
+  --shadow-md: 0 4px 0 #e5e5e5;
+  --shadow-lg: 0 8px 0 #e5e5e5;
+  --shadow-glow: 0 0 20px rgba(88, 204, 2, 0.3);
+
+  /* Typography */
+  --font-primary: 'Nunito', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-sm: 1rem;     /* 16px */
+  --fs-base: 1.125rem; /* 18px */
+  --fs-md: 1.25rem;  /* 20px */
+  --fs-lg: 1.5rem;   /* 24px */
+  --fs-xl: 1.75rem;  /* 28px */
+  --fs-2xl: 2.5rem;  /* 40px */
+  --fs-3xl: 3rem;    /* 48px */
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 50%;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Layout */
+  --nav-height: 64px;
+  --max-width: 1280px;
+  --sidebar-width: 260px;
+}
+
+/* --- CSS Reset --- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(28, 176, 246, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(88, 204, 2, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(255, 200, 0, 0.05) 0%, transparent 40%);
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* --- Utility Classes --- */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-accent { color: var(--accent); }
+.text-success { color: var(--accent-success); }
+.text-warning { color: var(--accent-warning); }
+.text-error { color: var(--accent-error); }
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mt-xl { margin-top: var(--space-xl); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+.mb-xl { margin-bottom: var(--space-xl); }
+
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-sm { gap: var(--space-sm); }
+.gap-md { gap: var(--space-md); }
+.gap-lg { gap: var(--space-lg); }
+
+.hidden { display: none !important; }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --- Main App Container --- */
+.app-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(var(--nav-height) + var(--space-xl)) var(--space-xl) var(--space-xl);
+  min-height: calc(100vh - 120px);
+}
+
+/* --- Footer --- */
+.app-footer {
+  text-align: center;
+  padding: var(--space-md);
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.app-footer p { margin: 0; opacity: 0.7; }
+.app-footer .heart { color: var(--accent-error); font-size: 1em; }
+
+
+/* --- Section Headers --- */
+.section-header {
+  margin-bottom: var(--space-xl);
+}
+
+.section-header h1 {
+  font-size: var(--fs-2xl);
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.5px;
+}
+
+.section-header p {
+  color: var(--text-secondary);
+  margin-top: var(--space-xs);
+  font-size: var(--fs-md);
+}
+
+/* --- Empty State --- */
+.empty-state {
+  text-align: center;
+  padding: var(--space-2xl);
+  color: var(--text-muted);
+}
+
+.empty-state .empty-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-md);
+  opacity: 0.5;
+}
+
+.empty-state p {
+  font-size: var(--fs-md);
+}
+
+/* --- Error State --- */
+.error-state {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--accent-error);
+  background: rgba(255, 82, 82, 0.1);
+  border: 1px solid rgba(255, 82, 82, 0.2);
+  border-radius: var(--radius-md);
+}
+
+/* --- Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 5px var(--accent-glow); }
+  50% { box-shadow: 0 0 20px var(--accent-glow), 0 0 40px var(--accent-glow); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-fadeIn { animation: fadeIn var(--transition-base) ease-out; }
+.animate-fadeInUp { animation: fadeInUp 0.4s ease-out; }
+.animate-slideUp { animation: slideUp 0.5s ease-out; }
+.animate-slideDown { animation: slideDown 0.4s ease-out; }
+.animate-bounceIn { animation: bounceIn 0.6s ease-out; }
+
+/* --- Responsive Breakpoints --- */
+@media (max-width: 768px) {
+  :root {
+    --fs-2xl: 1.5rem;
+    --fs-3xl: 2rem;
+    --nav-height: 56px;
+  }
+
+  .app-container {
+    padding: calc(var(--nav-height) + var(--space-md)) var(--space-md) var(--space-md);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --fs-2xl: 1.25rem;
+    --fs-xl: 1.25rem;
+  }
+
+  .app-container {
+    padding: calc(var(--nav-height) + var(--space-sm)) var(--space-sm) var(--space-sm);
+  }
+}
+
+/* --- Selection --- */
+::selection {
+  background: var(--accent);
+  color: var(--text-on-accent);
+}
+
+/* --- Focus Visible --- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* --- Link Base --- */
+a {
+  color: var(--accent-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--accent-secondary-hover);
+}
+
+/* --- Image defaults --- */
+img {
+  max-width: 100%;
+  height: auto;
+}

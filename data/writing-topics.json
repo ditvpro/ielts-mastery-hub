@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "taskType": "task1",
+    "category": "bar-chart",
+    "topic": "The bar chart below shows the number of international students enrolled in three different countries (USA, UK, Australia) between 2015 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nData:\n- USA: 2015: 975,000 | 2016: 1,044,000 | 2017: 1,079,000 | 2018: 1,095,000 | 2019: 1,076,000 | 2020: 914,000\n- UK: 2015: 437,000 | 2016: 438,000 | 2017: 442,000 | 2018: 458,000 | 2019: 486,000 | 2020: 556,000\n- Australia: 2015: 645,000 | 2016: 710,000 | 2017: 798,000 | 2018: 876,000 | 2019: 758,000 | 2020: 637,000",
+    "instructions": "Write at least 150 words.",
+    "wordLimit": 150
+  },
+  {
+    "id": 2,
+    "taskType": "task1",
+    "category": "line-graph",
+    "topic": "The line graph shows the percentage of households with internet access in four countries (South Korea, Germany, Brazil, Nigeria) from 2005 to 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nData:\n- South Korea: 2005: 73% | 2010: 83% | 2015: 90% | 2020: 97%\n- Germany: 2005: 62% | 2010: 82% | 2015: 88% | 2020: 93%\n- Brazil: 2005: 21% | 2010: 41% | 2015: 59% | 2020: 75%\n- Nigeria: 2005: 5% | 2010: 24% | 2015: 42% | 2020: 61%",
+    "instructions": "Write at least 150 words.",
+    "wordLimit": 150
+  },
+  {
+    "id": 3,
+    "taskType": "task1",
+    "category": "pie-chart",
+    "topic": "The pie charts below show the main reasons for studying abroad given by students in 2005 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nData 2005: Better education quality: 40% | Career opportunities: 25% | Cultural experience: 20% | Escape home country: 10% | Other: 5%\n\nData 2020: Career opportunities: 35% | Better education quality: 28% | Networking: 18% | Cultural experience: 12% | Other: 7%",
+    "instructions": "Write at least 150 words.",
+    "wordLimit": 150
+  },
+  {
+    "id": 4,
+    "taskType": "task1",
+    "category": "table",
+    "topic": "The table below shows the average monthly spending (in USD) of university students in five categories in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\n| Category | UK Students | US Students | Japanese Students |\n|----------|------------|------------|------------------|\n| Housing | $850 | $1,200 | $650 |\n| Food | $320 | $400 | $280 |\n| Transport | $180 | $350 | $120 |\n| Books & Supplies | $75 | $120 | $90 |\n| Entertainment | $150 | $200 | $100 |",
+    "instructions": "Write at least 150 words.",
+    "wordLimit": 150
+  },
+  {
+    "id": 5,
+    "taskType": "task1",
+    "category": "map",
+    "topic": "The two maps below show a small town called Lakeside in 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\n1990: The town centre had a market square, surrounded by small shops and a church. There was a primary school to the north, farmland to the east, and a lake with a forest to the south. A single main road connected the town to the highway.\n\n2020: The market square has been replaced by a shopping mall. The farmland to the east has been developed into a residential housing estate. A new secondary school and sports centre have been built to the north. The forest to the south has been partially cleared for a car park and hotel. A new ring road now circles the town, and a railway station has been built to the west.",
+    "instructions": "Write at least 150 words.",
+    "wordLimit": 150
+  },
+  {
+    "id": 6,
+    "taskType": "task2",
+    "category": "opinion",
+    "topic": "Some people believe that children should start learning a foreign language at primary school, while others think they should begin at secondary school.\n\nDiscuss both views and give your own opinion.",
+    "instructions": "Write at least 250 words. Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "wordLimit": 250
+  },
+  {
+    "id": 7,
+    "taskType": "task2",
+    "category": "opinion",
+    "topic": "In many countries, the gap between the rich and the poor is increasing. What problems does this cause? What solutions can you suggest?",
+    "instructions": "Write at least 250 words. Give reasons for your answer and include any relevant examples.",
+    "wordLimit": 250
+  },
+  {
+    "id": 8,
+    "taskType": "task2",
+    "category": "discussion",
+    "topic": "Some people think that the best way to reduce crime is to give longer prison sentences. Others believe that there are better ways to reduce crime.\n\nDiscuss both views and give your own opinion.",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 9,
+    "taskType": "task2",
+    "category": "problem-solution",
+    "topic": "In many cities, traffic congestion is a growing problem. What are the causes of this problem? What measures could be taken to reduce traffic in cities?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 10,
+    "taskType": "task2",
+    "category": "advantages-disadvantages",
+    "topic": "More and more people are choosing to work from home rather than commuting to an office. What are the advantages and disadvantages of working from home?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 11,
+    "taskType": "task2",
+    "category": "opinion",
+    "topic": "Some people believe that universities should only offer courses that prepare students for employment. Others think the purpose of university education is to provide knowledge for its own sake.\n\nDiscuss both views and give your opinion.",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 12,
+    "taskType": "task2",
+    "category": "discussion",
+    "topic": "Some people think that governments should invest more money in public transport, while others believe the money should be spent on building new roads.\n\nDiscuss both views and give your own opinion.",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 13,
+    "taskType": "task2",
+    "category": "problem-solution",
+    "topic": "Many young people today are spending an increasing amount of time using the internet and social media. What problems does this cause? What solutions can you suggest?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 14,
+    "taskType": "task2",
+    "category": "advantages-disadvantages",
+    "topic": "In some countries, students take a gap year between finishing school and starting university. What are the advantages and disadvantages of taking a gap year?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 15,
+    "taskType": "task2",
+    "category": "opinion",
+    "topic": "Some people believe that technology has made our lives more stressful, while others feel it has reduced stress. Which view do you agree with?",
+    "instructions": "Write at least 250 words. Give reasons for your answer and include any relevant examples.",
+    "wordLimit": 250
+  },
+  {
+    "id": 16,
+    "taskType": "task2",
+    "category": "discussion",
+    "topic": "Some people think that national sporting success is important for a country, while others believe it is more important to invest in grassroots sports for everyone.\n\nDiscuss both views and give your own opinion.",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 17,
+    "taskType": "task2",
+    "category": "problem-solution",
+    "topic": "In many parts of the world, environmental pollution is increasing. What are the main causes of pollution, and what can individuals do to help reduce it?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 18,
+    "taskType": "task2",
+    "category": "advantages-disadvantages",
+    "topic": "Many companies now allow employees to choose their own working hours. What are the advantages and disadvantages of flexible working hours?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 19,
+    "taskType": "task2",
+    "category": "opinion",
+    "topic": "Some people believe that the best way to learn about a foreign country is to travel there. Others say you can learn just as much from reading books, watching films, and using the internet.\n\nDiscuss both views and give your opinion.",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  },
+  {
+    "id": 20,
+    "taskType": "task2",
+    "category": "problem-solution",
+    "topic": "Many people today suffer from health problems caused by a modern lifestyle that includes too much processed food and too little exercise. What are the causes of this trend, and what solutions would you recommend?",
+    "instructions": "Write at least 250 words.",
+    "wordLimit": 250
+  }
+]

@@ -1,0 +1,322 @@
+/* ============================================================
+   Speaking Module Styles
+   Chat interface, microphone button, recording animation
+   ============================================================ */
+
+/* --- Speaking Layout --- */
+.speaking-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* --- Part Selector --- */
+.part-selector {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.part-btn {
+  flex: 1;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-family: var(--font-primary);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: center;
+}
+
+.part-btn:hover {
+  border-color: var(--border-color-hover);
+  color: var(--text-primary);
+}
+
+.part-btn.active {
+  border-color: var(--accent);
+  background: rgba(74, 144, 226, 0.1);
+  color: var(--accent);
+}
+
+.part-btn .part-number {
+  font-size: var(--fs-lg);
+  display: block;
+  font-weight: 800;
+}
+
+.part-btn .part-label {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: var(--space-xs);
+  display: block;
+}
+
+/* --- Chat Interface --- */
+.chat-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.chat-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--text-muted);
+}
+
+.status-dot.active {
+  background: var(--accent-success);
+  box-shadow: 0 0 8px rgba(0, 230, 118, 0.5);
+}
+
+.status-dot.recording {
+  background: var(--accent-error);
+  animation: pulse 1s infinite;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* --- Chat Bubbles --- */
+.chat-bubble {
+  max-width: 80%;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-lg);
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+  animation: fadeInUp 0.3s ease-out;
+  position: relative;
+}
+
+.chat-bubble.examiner {
+  align-self: flex-start;
+  background: var(--bg-tertiary);
+  border-bottom-left-radius: 4px;
+}
+
+.chat-bubble.user {
+  align-self: flex-end;
+  background: linear-gradient(135deg, var(--accent), #c0392b);
+  color: var(--text-on-accent);
+  border-bottom-right-radius: 4px;
+}
+
+.chat-bubble .bubble-sender {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+  opacity: 0.8;
+}
+
+.chat-bubble.examiner .bubble-sender { color: var(--accent-secondary); }
+.chat-bubble.user .bubble-sender { color: rgba(255,255,255,0.8); }
+
+/* --- Corrections Panel --- */
+.corrections-panel {
+  margin-top: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(255, 171, 64, 0.1);
+  border-left: 3px solid var(--accent-warning);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: var(--fs-xs);
+}
+
+.correction-item {
+  margin-bottom: var(--space-xs);
+}
+
+.correction-original {
+  text-decoration: line-through;
+  color: var(--accent-error);
+}
+
+.correction-fixed {
+  color: var(--accent-success);
+  font-weight: 600;
+}
+
+/* --- Chat Input Area --- */
+.chat-input-area {
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(255,255,255,0.8);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.chat-input-area .input {
+  flex: 1;
+}
+
+/* --- Microphone Button --- */
+.mic-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--accent), #c0392b);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.mic-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(74, 144, 226, 0.4);
+}
+
+.mic-btn.recording {
+  background: var(--accent-error);
+  animation: glow 1.5s infinite;
+}
+
+.mic-btn.recording::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--accent-error);
+  animation: ripple 1.5s infinite;
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.mic-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* --- Transcript Panel --- */
+.transcript-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.transcript-panel h3 {
+  font-size: var(--fs-base);
+  margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.transcript-text {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
+/* --- Score Display --- */
+.speaking-score {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+}
+
+.speaking-score .band-score {
+  font-size: var(--fs-3xl);
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.speaking-score .score-details {
+  flex: 1;
+}
+
+/* --- Session History --- */
+.session-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.session-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.session-item:hover {
+  border-color: var(--border-color-hover);
+  background: var(--bg-card-hover);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .part-selector {
+    flex-direction: column;
+  }
+
+  .chat-bubble {
+    max-width: 90%;
+  }
+
+  .chat-container {
+    min-height: 350px;
+  }
+
+  .speaking-score {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "conservation": {
+    "word": "conservation",
+    "definition": "The careful management and protection of natural resources, wildlife, or cultural heritage to prevent loss or damage.",
+    "vietnameseMeaning": "sự bảo tồn",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌkɒn.səˈveɪ.ʃən/",
+    "examples": [
+      "The government has invested heavily in wildlife conservation.",
+      "Energy conservation is crucial for reducing our carbon footprint."
+    ],
+    "synonyms": [
+      "preservation",
+      "protection",
+      "safekeeping"
+    ],
+    "antonyms": [
+      "destruction",
+      "waste",
+      "exploitation"
+    ],
+    "contextExamples": [
+      {
+        "context": "Môi trường (Environment)",
+        "sentence": "The <b>conservation</b> of rainforests is essential for maintaining global biodiversity.",
+        "translation": "Việc <b>bảo tồn</b> rừng nhiệt đới là cần thiết để duy trì đa dạng sinh học toàn cầu."
+      },
+      {
+        "context": "Năng lượng (Energy)",
+        "sentence": "Simple measures like turning off lights can significantly contribute to energy <b>conservation</b>.",
+        "translation": "Các biện pháp đơn giản như tắt đèn có thể góp phần đáng kể vào việc <b>bảo tồn</b> năng lượng."
+      },
+      {
+        "context": "Văn hóa (Culture)",
+        "sentence": "The <b>conservation</b> of historical monuments helps preserve a nation's cultural identity.",
+        "translation": "Việc <b>bảo tồn</b> các di tích lịch sử giúp gìn giữ bản sắc văn hóa của một quốc gia."
+      }
+    ],
+    "ieltsUsage": "Commonly used in Writing Task 2 essays about environmental protection, sustainable development, and cultural heritage. Also appears in Listening and Reading passages on ecology and resource management.",
+    "bandLevel": "Band 6"
+  },
+  "deforestation": {
+    "word": "deforestation",
+    "definition": "the act of cutting down or burning trees in a forest area, often to use the land for other purposes like farming or building",
+    "vietnameseMeaning": "sự phá rừng, nạn phá rừng",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌdiːˌfɒr.ɪˈsteɪ.ʃən/",
+    "examples": [
+      "Deforestation has led to the loss of many animal habitats.",
+      "The government is trying to reduce deforestation by enforcing stricter laws."
+    ],
+    "synonyms": [
+      "clear-cutting",
+      "forest clearance",
+      "logging"
+    ],
+    "antonyms": [
+      "reforestation",
+      "afforestation"
+    ],
+    "contextExamples": [
+      {
+        "context": "Môi trường (Environment)",
+        "sentence": "The rapid <b>deforestation</b> in the Amazon is causing severe climate changes.",
+        "translation": "Nạn phá rừng nhanh chóng ở Amazon đang gây ra những thay đổi khí hậu nghiêm trọng."
+      },
+      {
+        "context": "Kinh tế (Economy)",
+        "sentence": "Many countries rely on <b>deforestation</b> for agricultural expansion, but this often leads to long-term economic losses.",
+        "translation": "Nhiều quốc gia dựa vào phá rừng để mở rộng nông nghiệp, nhưng điều này thường dẫn đến tổn thất kinh tế lâu dài."
+      },
+      {
+        "context": "Chính sách (Policy)",
+        "sentence": "International organizations are pressuring governments to halt <b>deforestation</b> and promote sustainable land use.",
+        "translation": "Các tổ chức quốc tế đang gây áp lực buộc chính phủ ngừng phá rừng và thúc đẩy sử dụng đất bền vững."
+      }
+    ],
+    "ieltsUsage": "Commonly used in Writing Task 2 essays about environmental issues, and in Speaking Part 3 when discussing climate change or conservation.",
+    "bandLevel": "Band 7"
+  },
+  "alamodality": {
+    "word": "alamodality",
+    "definition": "A term referring to the quality or state of being fashionable or in accordance with current style.",
+    "vietnameseMeaning": "tính thời trang, tính hợp thời",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌæl.əˈmoʊ.dæl.ɪ.ti/",
+    "examples": [
+      "The alamodality of her outfit made her stand out at the event.",
+      "In fashion design, alamodality is often prioritized over comfort."
+    ],
+    "synonyms": [
+      "fashionability",
+      "trendiness",
+      "stylishness"
+    ],
+    "antonyms": [
+      "unfashionability",
+      "datedness"
+    ],
+    "contextExamples": [
+      {
+        "context": "Môi trường (Environment)",
+        "sentence": "The <b>alamodality</b> of eco-friendly products has increased as consumers become more environmentally conscious.",
+        "translation": "Tính thời trang của các sản phẩm thân thiện với môi trường đã tăng lên khi người tiêu dùng trở nên có ý thức hơn về môi trường."
+      },
+      {
+        "context": "Giáo dục (Education)",
+        "sentence": "The <b>alamodality</b> of online learning platforms has reshaped traditional education systems.",
+        "translation": "Tính hợp thời của các nền tảng học trực tuyến đã định hình lại các hệ thống giáo dục truyền thống."
+      },
+      {
+        "context": "Công nghệ (Technology)",
+        "sentence": "The <b>alamodality</b> of smart home devices reflects society's growing reliance on automation.",
+        "translation": "Tính thời thượng của các thiết bị nhà thông minh phản ánh sự phụ thuộc ngày càng tăng của xã hội vào tự động hóa."
+      }
+    ],
+    "ieltsUsage": "This word is useful in IELTS Writing Task 2 essays discussing fashion, consumer behavior, or cultural trends. It can also appear in Speaking Part 3 when talking about changes in lifestyle or technology.",
+    "bandLevel": "Band 7"
+  },
+  "antitypal": {
+    "word": "antitypal",
+    "definition": "relating to or being an antitype; that which is foreshadowed or represented by a type or symbol",
+    "vietnameseMeaning": "thuộc về hình mẫu đối ứng; được báo trước hoặc đại diện bởi một hình mẫu hoặc biểu tượng",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˌæntɪˈtaɪpəl/",
+    "examples": [
+      "The New Testament events are often considered antitypal of Old Testament prophecies.",
+      "In literature, the hero may be seen as antitypal to the villain."
+    ],
+    "synonyms": [
+      "corresponding",
+      "fulfilling",
+      "representative"
+    ],
+    "antonyms": [
+      "typical",
+      "prototypical"
+    ],
+    "contextExamples": [
+      {
+        "context": "Văn học (Literature)",
+        "sentence": "In the novel, the protagonist's journey is <b>antitypal</b> of the classic hero's quest.",
+        "translation": "Trong tiểu thuyết, hành trình của nhân vật chính là <b>hình mẫu đối ứng</b> của cuộc tìm kiếm anh hùng cổ điển."
+      },
+      {
+        "context": "Tôn giáo (Religion)",
+        "sentence": "The sacrifice of Isaac is seen as a type, with Christ's crucifixion being the <b>antitypal</b> fulfillment.",
+        "translation": "Sự hy sinh của Isaac được xem như một hình mẫu, với sự đóng đinh của Chúa Kitô là sự ứng nghiệm <b>đối ứng</b>."
+      },
+      {
+        "context": "Ngôn ngữ học (Linguistics)",
+        "sentence": "Some linguists argue that certain grammatical structures are <b>antitypal</b> to others in terms of markedness.",
+        "translation": "Một số nhà ngôn ngữ học cho rằng một số cấu trúc ngữ pháp là <b>đối ứng</b> với những cấu trúc khác về mặt đánh dấu."
+      }
+    ],
+    "ieltsUsage": "This word is rarely used in IELTS; it appears mainly in academic contexts related to literature, theology, or philosophy. It is suitable for high-band scores (Band 8+) if used appropriately in writing or speaking.",
+    "bandLevel": "Band 8"
+  },
+  "cytopharynx": {
+    "word": "cytopharynx",
+    "definition": "A tube-like structure in some single-celled organisms that functions like a throat, used to ingest food.",
+    "vietnameseMeaning": "tế bào hầu",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌsaɪtəˈfærɪŋks/",
+    "examples": [
+      "The cytopharynx is a specialized organelle for feeding in ciliates.",
+      "Food particles are directed into the cytopharynx by ciliary action."
+    ],
+    "synonyms": [
+      "cell throat",
+      "feeding tube"
+    ],
+    "antonyms": [],
+    "contextExamples": [
+      {
+        "context": "Sinh học (Biology)",
+        "sentence": "In Paramecium, the <b>cytopharynx</b> is lined with cilia that help move food into the cell.",
+        "translation": "Ở Paramecium, <b>tế bào hầu</b> được lót bởi các lông rung giúp đưa thức ăn vào trong tế bào."
+      },
+      {
+        "context": "Khoa học (Science)",
+        "sentence": "The <b>cytopharynx</b> is an essential structure for phagocytosis in many protozoans.",
+        "translation": "<b>Tế bào hầu</b> là một cấu trúc thiết yếu cho quá trình thực bào ở nhiều động vật nguyên sinh."
+      }
+    ],
+    "ieltsUsage": "This word is highly specialized and rarely appears in IELTS. It may be used in Academic Reading passages about biology or microbiology.",
+    "bandLevel": "Band 9"
+  },
+  "birchen": {
+    "word": "birchen",
+    "definition": "made of or relating to birch wood",
+    "vietnameseMeaning": "bằng gỗ bạch dương",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈbɜːrtʃən/",
+    "examples": [
+      "The birchen table was beautifully crafted.",
+      "They sat on birchen benches in the forest."
+    ],
+    "synonyms": [
+      "birch",
+      "birken"
+    ],
+    "antonyms": [
+      "oaken",
+      "wooden (general)"
+    ],
+    "contextExamples": [
+      {
+        "context": "Môi trường (Environment)",
+        "sentence": "The <b>birchen</b> forest was a haven for wildlife.",
+        "translation": "Khu rừng bạch dương là nơi trú ẩn của động vật hoang dã."
+      },
+      {
+        "context": "Văn hóa (Culture)",
+        "sentence": "Traditional crafts include making <b>birchen</b> baskets.",
+        "translation": "Các nghề thủ công truyền thống bao gồm làm giỏ bằng gỗ bạch dương."
+      },
+      {
+        "context": "Kiến trúc (Architecture)",
+        "sentence": "The cabin had <b>birchen</b> floors that gleamed in the sunlight.",
+        "translation": "Căn nhà gỗ có sàn bạch dương lấp lánh dưới ánh nắng."
+      }
+    ],
+    "ieltsUsage": "Useful in describing natural materials, traditional crafts, or environmental features in Writing Task 2 or Speaking Part 2.",
+    "bandLevel": "Band 7"
+  }
+}

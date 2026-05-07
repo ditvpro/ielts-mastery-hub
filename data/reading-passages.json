@@ -1,0 +1,413 @@
+[
+  {
+    "id": 1,
+    "title": "The Rise of Renewable Energy",
+    "topic": "Environment & Technology",
+    "difficulty": "medium",
+    "passage": "The global energy landscape is undergoing a dramatic transformation. Renewable energy sources, particularly solar and wind power, have experienced unprecedented growth over the past decade. In 2010, renewable energy accounted for approximately 20% of global electricity generation. By 2023, this figure had risen to nearly 30%, with some countries achieving even higher percentages.\n\nSolar energy has been the fastest-growing renewable source. The cost of solar panels has decreased by over 89% since 2010, making it the cheapest form of electricity in many parts of the world. China leads global solar capacity with over 390 gigawatts installed, followed by the United States and India. This rapid expansion has been driven by government subsidies, technological improvements, and growing environmental awareness.\n\nWind energy has also seen remarkable growth. Offshore wind farms, in particular, have become increasingly popular in Europe, with the United Kingdom leading the way. The Hornsea Wind Farm off the coast of Yorkshire generates enough electricity to power over one million homes. However, wind energy faces challenges including intermittency, visual impact on landscapes, and potential effects on bird populations.\n\nDespite the progress, significant obstacles remain. Energy storage technology must improve to address the intermittent nature of solar and wind power. The electrical grid infrastructure in many countries requires substantial upgrades to handle distributed renewable generation. Additionally, the transition away from fossil fuels threatens jobs in traditional energy sectors, necessitating careful planning for workforce retraining.\n\nExperts predict that renewable energy could account for 50% of global electricity by 2030 if current growth rates continue. The International Energy Agency has stated that achieving net-zero emissions by 2050 is technically feasible but would require immediate and massive deployment of all available clean energy technologies.",
+    "questions": [
+      {
+        "id": "r1q1",
+        "type": "true-false-not-given",
+        "question": "Renewable energy made up 30% of global electricity in 2010.",
+        "answer": "FALSE",
+        "explanation": "The passage states it was approximately 20% in 2010, rising to nearly 30% by 2023."
+      },
+      {
+        "id": "r1q2",
+        "type": "true-false-not-given",
+        "question": "Solar panel costs have fallen by more than 85% since 2010.",
+        "answer": "TRUE",
+        "explanation": "The passage states costs decreased by over 89%, which is more than 85%."
+      },
+      {
+        "id": "r1q3",
+        "type": "true-false-not-given",
+        "question": "India has the second-largest solar capacity in the world.",
+        "answer": "FALSE",
+        "explanation": "The passage lists the order as China, United States, then India (third)."
+      },
+      {
+        "id": "r1q4",
+        "type": "true-false-not-given",
+        "question": "The Hornsea Wind Farm is located in Scotland.",
+        "answer": "FALSE",
+        "explanation": "It is off the coast of Yorkshire, not Scotland."
+      },
+      {
+        "id": "r1q5",
+        "type": "true-false-not-given",
+        "question": "Wind farms have been proven to significantly reduce bird populations.",
+        "answer": "NOT GIVEN",
+        "explanation": "The passage mentions 'potential effects on bird populations' but does not confirm significant reduction."
+      },
+      {
+        "id": "r1q6",
+        "type": "multiple-choice",
+        "question": "According to the passage, what is the main driver of solar energy's cost reduction?",
+        "options": ["A) Government regulations only", "B) A combination of subsidies, technology, and awareness", "C) Reduced demand for fossil fuels", "D) International trade agreements"],
+        "answer": "B",
+        "explanation": "The passage mentions government subsidies, technological improvements, and growing environmental awareness."
+      },
+      {
+        "id": "r1q7",
+        "type": "multiple-choice",
+        "question": "Which country leads in offshore wind farm development?",
+        "options": ["A) China", "B) United States", "C) United Kingdom", "D) Germany"],
+        "answer": "C",
+        "explanation": "The passage states the UK leads the way in offshore wind farms."
+      },
+      {
+        "id": "r1q8",
+        "type": "sentence-completion",
+        "question": "Energy _____ technology needs improvement to deal with solar and wind intermittency.",
+        "answer": "storage",
+        "explanation": "The passage states 'Energy storage technology must improve.'"
+      },
+      {
+        "id": "r1q9",
+        "type": "sentence-completion",
+        "question": "The transition from fossil fuels requires planning for workforce _____.",
+        "answer": "retraining",
+        "explanation": "The passage mentions 'careful planning for workforce retraining.'"
+      },
+      {
+        "id": "r1q10",
+        "type": "multiple-choice",
+        "question": "What percentage of global electricity could renewables reach by 2030?",
+        "options": ["A) 30%", "B) 40%", "C) 50%", "D) 60%"],
+        "answer": "C",
+        "explanation": "Experts predict 50% by 2030 if current growth continues."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Psychology of Social Media",
+    "topic": "Technology & Society",
+    "difficulty": "medium",
+    "passage": "Social media platforms have fundamentally altered the way humans interact, communicate, and perceive the world around them. With over 4.9 billion social media users worldwide in 2024, these platforms have become an integral part of daily life for a significant portion of the global population. However, researchers are increasingly concerned about the psychological effects of prolonged social media use.\n\nOne of the most widely studied phenomena is the 'comparison trap.' Users are constantly exposed to carefully curated highlights of others' lives, leading to unfavorable social comparisons. Studies conducted at the University of Pennsylvania found that limiting social media use to 30 minutes per day significantly reduced levels of anxiety, depression, and loneliness. The researchers noted that participants reported feeling 'less FOMO' — fear of missing out — when they reduced their screen time.\n\nThe dopamine feedback loop is another critical concern. Social media platforms are designed to trigger dopamine release through likes, comments, and notifications. This creates a cycle of reward-seeking behavior similar to that observed in gambling addiction. Former technology executives have publicly admitted that these features were intentionally designed to be addictive, raising ethical questions about the responsibility of tech companies.\n\nAdolescents appear to be particularly vulnerable. A comprehensive study published in The Lancet found that teenagers who spent more than three hours daily on social media had double the risk of developing mental health problems. Cyberbullying, sleep disruption, and reduced face-to-face social interaction were identified as key contributing factors. Several countries, including France and Australia, have introduced or proposed legislation restricting social media access for minors.\n\nNot all research paints a negative picture, however. Social media has been credited with reducing social isolation for elderly users, facilitating political activism, and providing support networks for marginalized communities. The key, experts suggest, lies in intentional and moderate use rather than passive scrolling.",
+    "questions": [
+      {
+        "id": "r2q1",
+        "type": "true-false-not-given",
+        "question": "There were over 5 billion social media users worldwide in 2024.",
+        "answer": "FALSE",
+        "explanation": "The passage states 4.9 billion, not over 5 billion."
+      },
+      {
+        "id": "r2q2",
+        "type": "true-false-not-given",
+        "question": "The University of Pennsylvania study recommended eliminating social media entirely.",
+        "answer": "FALSE",
+        "explanation": "The study found benefits from limiting use to 30 minutes, not eliminating it."
+      },
+      {
+        "id": "r2q3",
+        "type": "true-false-not-given",
+        "question": "FOMO stands for 'fear of missing out.'",
+        "answer": "TRUE",
+        "explanation": "The passage explicitly defines FOMO as 'fear of missing out.'"
+      },
+      {
+        "id": "r2q4",
+        "type": "true-false-not-given",
+        "question": "All former tech executives believe social media is harmful.",
+        "answer": "NOT GIVEN",
+        "explanation": "The passage only says some former executives admitted features were designed to be addictive."
+      },
+      {
+        "id": "r2q5",
+        "type": "multiple-choice",
+        "question": "What did teenagers who used social media more than 3 hours daily experience?",
+        "options": ["A) Improved academic performance", "B) Double the risk of mental health problems", "C) Better social skills", "D) Increased physical activity"],
+        "answer": "B",
+        "explanation": "The Lancet study found double the risk of developing mental health problems."
+      },
+      {
+        "id": "r2q6",
+        "type": "multiple-choice",
+        "question": "The dopamine feedback loop in social media is compared to:",
+        "options": ["A) Exercise addiction", "B) Gambling addiction", "C) Food addiction", "D) Shopping addiction"],
+        "answer": "B",
+        "explanation": "The passage compares it to reward-seeking behavior observed in gambling addiction."
+      },
+      {
+        "id": "r2q7",
+        "type": "sentence-completion",
+        "question": "France and Australia have proposed legislation to restrict social media access for _____.",
+        "answer": "minors",
+        "explanation": "The passage mentions restricting access for minors."
+      },
+      {
+        "id": "r2q8",
+        "type": "true-false-not-given",
+        "question": "Social media has helped reduce isolation among older people.",
+        "answer": "TRUE",
+        "explanation": "The passage states social media has been credited with reducing social isolation for elderly users."
+      },
+      {
+        "id": "r2q9",
+        "type": "multiple-choice",
+        "question": "According to the passage, what is the recommended approach to social media?",
+        "options": ["A) Complete avoidance", "B) Unlimited use with breaks", "C) Intentional and moderate use", "D) Use only for work purposes"],
+        "answer": "C",
+        "explanation": "Experts suggest intentional and moderate use rather than passive scrolling."
+      },
+      {
+        "id": "r2q10",
+        "type": "sentence-completion",
+        "question": "Three factors affecting teenagers are cyberbullying, sleep disruption, and reduced _____ social interaction.",
+        "answer": "face-to-face",
+        "explanation": "The passage identifies reduced face-to-face social interaction as a key factor."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Urban Farming: Growing Food in Cities",
+    "topic": "Agriculture & Urban Planning",
+    "difficulty": "easy",
+    "passage": "As the world's population becomes increasingly urbanized, with projections suggesting that 68% of people will live in cities by 2050, the concept of urban farming has gained significant attention. Urban farming, also known as urban agriculture, refers to the practice of growing food within city boundaries, utilizing spaces such as rooftops, abandoned lots, vertical structures, and community gardens.\n\nOne of the most innovative approaches is vertical farming, where crops are grown in stacked layers within controlled indoor environments. These facilities use LED lighting and hydroponic or aeroponic systems that require up to 95% less water than traditional farming. Singapore, a city-state with limited land, has become a pioneer in vertical farming, with companies like Sky Greens operating commercial vertical farms that supply local supermarkets.\n\nCommunity gardens represent a more accessible form of urban agriculture. In cities like Detroit, which experienced significant population decline and economic hardship, vacant lots have been transformed into productive gardens. The Michigan Urban Farming Initiative has converted over 3 acres of vacant land into an agricultural campus that provides free fresh produce to approximately 2,000 households.\n\nThe benefits of urban farming extend beyond food production. Studies have shown that community gardens improve mental health, strengthen social bonds, and increase property values in surrounding areas. Urban green spaces also help reduce the 'heat island effect,' where cities experience higher temperatures than surrounding rural areas due to concrete and asphalt absorbing heat.\n\nHowever, urban farming faces several challenges. Soil contamination from previous industrial use is a major concern, requiring extensive testing and remediation. The high cost of land in cities makes large-scale operations financially difficult. Critics also argue that urban farming cannot produce enough food to meaningfully impact food security and should be seen as a complement to, rather than a replacement for, conventional agriculture.",
+    "questions": [
+      {
+        "id": "r3q1",
+        "type": "true-false-not-given",
+        "question": "By 2050, more than two-thirds of people will live in cities.",
+        "answer": "TRUE",
+        "explanation": "68% is more than two-thirds (66.7%)."
+      },
+      {
+        "id": "r3q2",
+        "type": "true-false-not-given",
+        "question": "Vertical farming uses more water than traditional farming methods.",
+        "answer": "FALSE",
+        "explanation": "Vertical farming requires up to 95% LESS water."
+      },
+      {
+        "id": "r3q3",
+        "type": "multiple-choice",
+        "question": "Why is Singapore a leader in vertical farming?",
+        "options": ["A) It has the most advanced technology", "B) It has limited land available", "C) The government mandates it", "D) It has the most funding"],
+        "answer": "B",
+        "explanation": "Singapore is described as 'a city-state with limited land.'"
+      },
+      {
+        "id": "r3q4",
+        "type": "sentence-completion",
+        "question": "The Michigan Urban Farming Initiative provides free fresh produce to about _____ households.",
+        "answer": "2,000",
+        "explanation": "The passage states approximately 2,000 households."
+      },
+      {
+        "id": "r3q5",
+        "type": "true-false-not-given",
+        "question": "Community gardens have been shown to decrease property values.",
+        "answer": "FALSE",
+        "explanation": "The passage states they increase property values."
+      },
+      {
+        "id": "r3q6",
+        "type": "multiple-choice",
+        "question": "What is the 'heat island effect'?",
+        "options": ["A) Cities being cooler than rural areas", "B) Cities experiencing higher temperatures due to concrete and asphalt", "C) Islands that are affected by climate change", "D) Urban gardens creating warmer microclimates"],
+        "answer": "B",
+        "explanation": "The passage defines it as cities experiencing higher temperatures due to concrete and asphalt."
+      },
+      {
+        "id": "r3q7",
+        "type": "sentence-completion",
+        "question": "Soil _____ from previous industrial use is a major challenge for urban farming.",
+        "answer": "contamination",
+        "explanation": "The passage mentions soil contamination as a major concern."
+      },
+      {
+        "id": "r3q8",
+        "type": "true-false-not-given",
+        "question": "Detroit's urban farming success is primarily due to government funding.",
+        "answer": "NOT GIVEN",
+        "explanation": "The passage does not mention government funding for Detroit's urban farming."
+      },
+      {
+        "id": "r3q9",
+        "type": "multiple-choice",
+        "question": "Critics suggest urban farming should be:",
+        "options": ["A) Completely abandoned", "B) The primary food source for cities", "C) A complement to conventional agriculture", "D) Restricted to rooftops only"],
+        "answer": "C",
+        "explanation": "Critics argue it should complement, not replace, conventional agriculture."
+      },
+      {
+        "id": "r3q10",
+        "type": "true-false-not-given",
+        "question": "Sky Greens sells its produce to local supermarkets in Singapore.",
+        "answer": "TRUE",
+        "explanation": "The passage states Sky Greens supplies local supermarkets."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Science of Sleep",
+    "topic": "Health & Science",
+    "difficulty": "hard",
+    "passage": "Sleep, once considered a passive state of unconsciousness, is now recognized as a complex and dynamic process essential for physical health, cognitive function, and emotional well-being. Research over the past three decades has revolutionized our understanding of why we sleep and what happens when we do not get enough of it.\n\nThe human sleep cycle consists of two main types: Non-Rapid Eye Movement (NREM) sleep and Rapid Eye Movement (REM) sleep. NREM sleep is further divided into three stages, with Stage 3 being the deepest and most restorative. During deep NREM sleep, the body repairs tissues, strengthens the immune system, and consolidates declarative memories — facts and events we have experienced. REM sleep, which typically begins about 90 minutes after falling asleep, is characterized by rapid eye movements, increased brain activity, and vivid dreaming. This stage is crucial for emotional processing and procedural memory consolidation.\n\nMatthew Walker, a neuroscientist at the University of California, Berkeley, has described sleep deprivation as a 'silent epidemic.' His research demonstrates that consistently sleeping less than seven hours per night increases the risk of cardiovascular disease by 45%, weakens vaccine effectiveness by up to 50%, and significantly impairs cognitive performance. Even moderate sleep restriction — six hours per night for two weeks — results in cognitive impairment equivalent to being legally drunk.\n\nThe circadian rhythm, our internal biological clock, plays a fundamental role in regulating sleep patterns. This roughly 24-hour cycle is primarily controlled by the suprachiasmatic nucleus in the hypothalamus, which responds to light signals received through the eyes. The hormone melatonin, produced by the pineal gland, increases in the evening to promote sleepiness. Modern lifestyles, particularly exposure to blue light from electronic screens, can suppress melatonin production and delay sleep onset.\n\nAdolescents face unique sleep challenges. During puberty, the circadian rhythm shifts approximately two hours later, meaning teenagers naturally feel sleepy later at night and need to wake later in the morning. Despite this biological reality, most school systems require early start times, creating a chronic mismatch between adolescent biology and societal demands. Several school districts in the United States have experimented with later start times, reporting improvements in academic performance, attendance, and mental health.",
+    "questions": [
+      {
+        "id": "r4q1",
+        "type": "matching-headings",
+        "question": "Which paragraph discusses the biological clock that controls sleep?",
+        "options": ["Paragraph 1", "Paragraph 2", "Paragraph 3", "Paragraph 4", "Paragraph 5"],
+        "answer": "Paragraph 4",
+        "explanation": "Paragraph 4 discusses the circadian rhythm and the suprachiasmatic nucleus."
+      },
+      {
+        "id": "r4q2",
+        "type": "true-false-not-given",
+        "question": "REM sleep begins immediately after falling asleep.",
+        "answer": "FALSE",
+        "explanation": "REM typically begins about 90 minutes after falling asleep."
+      },
+      {
+        "id": "r4q3",
+        "type": "true-false-not-given",
+        "question": "Sleeping six hours a night for two weeks has the same cognitive effect as being drunk.",
+        "answer": "TRUE",
+        "explanation": "The passage states it results in cognitive impairment equivalent to being legally drunk."
+      },
+      {
+        "id": "r4q4",
+        "type": "multiple-choice",
+        "question": "What does deep NREM sleep help consolidate?",
+        "options": ["A) Procedural memories", "B) Declarative memories", "C) Emotional memories", "D) Motor memories"],
+        "answer": "B",
+        "explanation": "Deep NREM sleep consolidates declarative memories — facts and events."
+      },
+      {
+        "id": "r4q5",
+        "type": "sentence-completion",
+        "question": "Blue light from screens can suppress _____ production.",
+        "answer": "melatonin",
+        "explanation": "The passage states blue light can suppress melatonin production."
+      },
+      {
+        "id": "r4q6",
+        "type": "multiple-choice",
+        "question": "By how much does sleeping less than 7 hours increase cardiovascular disease risk?",
+        "options": ["A) 25%", "B) 35%", "C) 45%", "D) 55%"],
+        "answer": "C",
+        "explanation": "The passage states a 45% increase."
+      },
+      {
+        "id": "r4q7",
+        "type": "true-false-not-given",
+        "question": "Matthew Walker works at Harvard University.",
+        "answer": "FALSE",
+        "explanation": "He works at the University of California, Berkeley."
+      },
+      {
+        "id": "r4q8",
+        "type": "sentence-completion",
+        "question": "During puberty, the circadian rhythm shifts approximately _____ hours later.",
+        "answer": "two",
+        "explanation": "The passage states the rhythm shifts approximately two hours later."
+      },
+      {
+        "id": "r4q9",
+        "type": "true-false-not-given",
+        "question": "All US school districts have adopted later start times for teenagers.",
+        "answer": "FALSE",
+        "explanation": "Only 'several school districts' have experimented with later times."
+      },
+      {
+        "id": "r4q10",
+        "type": "multiple-choice",
+        "question": "Which gland produces melatonin?",
+        "options": ["A) Pituitary gland", "B) Thyroid gland", "C) Pineal gland", "D) Adrenal gland"],
+        "answer": "C",
+        "explanation": "The passage states melatonin is produced by the pineal gland."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Evolution of Remote Work",
+    "topic": "Business & Society",
+    "difficulty": "medium",
+    "passage": "The COVID-19 pandemic accelerated a workplace revolution that had been slowly building for decades. Remote work, once a rare privilege offered to a select few, became the norm for millions of workers worldwide almost overnight. By April 2020, an estimated 42% of the American workforce was working from home full-time, compared to just 5.7% before the pandemic.\n\nThe technology enabling remote work had existed for years. Video conferencing platforms like Zoom saw daily meeting participants surge from 10 million in December 2019 to 300 million by April 2020. Cloud-based collaboration tools such as Slack, Microsoft Teams, and Google Workspace became essential infrastructure for distributed teams. These tools allowed not just communication but real-time collaboration on documents, project management, and virtual whiteboarding.\n\nProductivity research has yielded mixed results. A Stanford study of 16,000 workers found a 13% performance increase among remote workers, attributed to fewer distractions and more comfortable working environments. However, Microsoft's own research using data from 61,000 employees revealed that while individual productivity remained stable, cross-team collaboration and innovation suffered. The study found that remote workers' professional networks became more static and siloed.\n\nThe hybrid model has emerged as the dominant post-pandemic approach. Companies like Google, Apple, and Amazon have implemented policies requiring employees to work in the office two to three days per week. Proponents argue this balances the flexibility benefits of remote work with the collaboration advantages of in-person interaction. However, surveys consistently show that many employees prefer fully remote arrangements, with some willing to accept pay cuts of up to 8% to maintain remote work flexibility.\n\nThe geographic implications of remote work are significant. Workers freed from the requirement to live near their offices have migrated from expensive urban centers to more affordable areas. Cities like Austin, Nashville, and Boise experienced population booms, while traditional tech hubs like San Francisco saw net population declines. This redistribution of workers has affected housing markets, local economies, and urban planning across the country.",
+    "questions": [
+      {
+        "id": "r5q1",
+        "type": "true-false-not-given",
+        "question": "Before the pandemic, less than 6% of American workers worked from home.",
+        "answer": "TRUE",
+        "explanation": "The passage states 5.7% before the pandemic, which is less than 6%."
+      },
+      {
+        "id": "r5q2",
+        "type": "sentence-completion",
+        "question": "Zoom's daily participants grew from 10 million to _____ million by April 2020.",
+        "answer": "300",
+        "explanation": "The passage states 300 million by April 2020."
+      },
+      {
+        "id": "r5q3",
+        "type": "multiple-choice",
+        "question": "What did the Stanford study find about remote worker productivity?",
+        "options": ["A) 13% decrease", "B) No change", "C) 13% increase", "D) 30% increase"],
+        "answer": "C",
+        "explanation": "The Stanford study found a 13% performance increase."
+      },
+      {
+        "id": "r5q4",
+        "type": "true-false-not-given",
+        "question": "Microsoft's research showed that cross-team collaboration improved with remote work.",
+        "answer": "FALSE",
+        "explanation": "Microsoft found that cross-team collaboration and innovation suffered."
+      },
+      {
+        "id": "r5q5",
+        "type": "multiple-choice",
+        "question": "How many days per week do companies like Google require office attendance?",
+        "options": ["A) One to two", "B) Two to three", "C) Three to four", "D) Four to five"],
+        "answer": "B",
+        "explanation": "Two to three days per week."
+      },
+      {
+        "id": "r5q6",
+        "type": "sentence-completion",
+        "question": "Some employees would accept pay cuts of up to _____% to keep working remotely.",
+        "answer": "8",
+        "explanation": "The passage mentions pay cuts of up to 8%."
+      },
+      {
+        "id": "r5q7",
+        "type": "true-false-not-given",
+        "question": "San Francisco's population increased during the remote work shift.",
+        "answer": "FALSE",
+        "explanation": "San Francisco saw net population declines."
+      },
+      {
+        "id": "r5q8",
+        "type": "true-false-not-given",
+        "question": "Austin became the most expensive city in the US due to remote workers.",
+        "answer": "NOT GIVEN",
+        "explanation": "The passage mentions Austin experienced a population boom but says nothing about it being the most expensive."
+      },
+      {
+        "id": "r5q9",
+        "type": "multiple-choice",
+        "question": "What happened to remote workers' professional networks according to Microsoft?",
+        "options": ["A) They expanded significantly", "B) They became more static and siloed", "C) They remained unchanged", "D) They became more diverse"],
+        "answer": "B",
+        "explanation": "Networks became more static and siloed."
+      },
+      {
+        "id": "r5q10",
+        "type": "true-false-not-given",
+        "question": "The hybrid model combines remote and office work.",
+        "answer": "TRUE",
+        "explanation": "The passage describes hybrid as requiring office attendance 2-3 days with remote flexibility."
+      }
+    ]
+  }
+]
